@@ -118,9 +118,7 @@ class Team:
         while first_hero.is_alive() and second_hero.is_alive():
             first_hero.fight(second_hero)
         ''' Battle each team against each other.'''
-        # TODO: Randomly select a living hero from each team and have
-        # them fight until one or both teams have no surviving heroes.
-        # Hint: Use the fight method in the Hero class.
+
 
     # revive every hero in list
     def revive_heroes(self, health=100):
